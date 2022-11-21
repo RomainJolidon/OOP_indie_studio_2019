@@ -1,0 +1,52 @@
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Dd]ebug*/
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+.idea/
+#Nuget packages folder
+packages/
+cmake-build-debug
+cmake-build-release-visual-studio/
+CMakeFiles
+Makefile
+CMakeCache.txt
+bomberman.cbp
+cmake_install.cmake
+#Linux compilation
+*.o
+*.vg*
+*.gc*
+solution
+
+#executable
+bomberman
+
+#configuration
+#config/
+#config/mainConfig.json
+
+#saves
+#saves/
+#saves/maps.json

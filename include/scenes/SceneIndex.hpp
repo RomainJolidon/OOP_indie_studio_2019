@@ -1,0 +1,13 @@
+/*
+** EPITECH PROJECT, 2023
+** bomberman
+** File description:
+** Created by rjolidon,
+*/
+
+#ifndef BOMBERMAN_SCENEINDEX_HPP
+#define BOMBERMAN_SCENEINDEX_HPP
+
+enum SceneIndex {MENU, GAME, PAUSE, MAP_SELECTION, PLAYER_SELECTION, OPTIONS, BACK_SCENE, NONE_SCENE};
+
+#endif //BOMBERMAN_SCENEINDEX_HPP

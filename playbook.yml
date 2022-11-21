@@ -1,0 +1,14 @@
+site:
+  title: Indie Studio Documentation Site
+  # the 404 page and sitemap files only get generated when the url property is set
+  start_page: indie_studio_doc::index.adoc
+content:
+  sources:
+  # embedding empty credentials in the URL disables the Edit this Page link for any page created from this repository
+  - url: https://gitlab.com/RomainJolidon/doc-oop_indie_studio_2019.git
+    branches: master
+    start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
